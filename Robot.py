@@ -51,7 +51,7 @@ class Robot(object):
 
 Atom = Robot('Atom')
 Atom.tell(
-    'https://qyapi.weixin.qq.com/cgi-bin/webhook/send?key=833dfc59-e225-4965-b1f8-da3dbd88e8af'
+    'https://qyapi.weixin.qq.com/cgi-bin/webhook/send?key=*********'
 ).when('13:30').do(
     {
         'msgtype': "text",
